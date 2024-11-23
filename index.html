@@ -18,10 +18,28 @@
             <a href="stocking-stuffer">Stocking Stuffer</a>
           </div>
         </div>
-        <div class="wishlist-grid">
-          <div class="wishlist-item">Polo Ralph Bear Sweater</div>
-          <div class="wishlist-item">AllSaints Dalby Leather Jacket</div>
-          <div class="wishlist-item">Mejuri Chunky Medium Hoops</div>
+        <div class="wishlist-carousel">
+          <div class="carousel-images">
+            <img src="src/allsaints.png" alt="allsaints" />
+            <img src="src/polobear.png" alt="polobear" />
+            <img src="src/mejuri.png" alt="mejuri" />
+          </div>
+          <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+          <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+        <div class="stocking-stuffer"></div>
+        <div class="christmas-checklist">
+          <form>
+            <label> <input type="checkbox" />Polo Ralph Bear Sweater </label>
+            <label>
+              <input type="checkbox" />AllSaints Dalby Leather Jacket
+            </label>
+            <label> <input type="checkbox" />Mejuri Chunky Medium Hoops </label>
+            <label>
+              <input type="checkbox" />Jellycat Bartholomew Bear Keychain
+            </label>
+            <label> <input type="checkbox" />Summer Fridays Lipbalm </label>
+          </form>
         </div>
       </div>
     </div>
