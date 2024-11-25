@@ -48,3 +48,13 @@ button {
 .next {
   right: 10px;
 }
+
+.christmas-checklist {
+  background-color: green;
+  padding: 10px;
+}
+
+.christmas-checklist form {
+  display: flex;
+  flex-direction: column;
+}
